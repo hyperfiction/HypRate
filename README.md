@@ -1,4 +1,4 @@
-HypRate
+HypRate (WIP)
 =============================
 A App rating prompt native extension for NME
 -----------------------------
