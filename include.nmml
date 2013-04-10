@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<!-- misc -->
+		<classpath name="src" />
+
+	<!-- Mobile -->
+		<echo value="" if="mobile" />
+		<echo value="|----------------------------------------------------------------------------|" if="mobile" />
+		<echo value="|                              /!\ [HypRate] /!\                             |" if="mobile" />
+
+	<!-- Android -->
+		<java path="project/android" />
+		<echo value="|----------------------------------------------------------------------------|" if="mobile" />
+</project>
