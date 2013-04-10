@@ -43,7 +43,7 @@ public class HypRate{
 							){
 			trace("start");
 			RateMeMaybe.resetData( GameActivity.getInstance( ) );
-			rmm.setPromptMinimums(0, 0, 0, 0);
+			rmm.setPromptMinimums( minLaunches , minInitial_days , minLaunches_until_next , minDays_until_next );
 			rmm.setRunWithoutPlayStore(true);
 			rmm.run();
 		}

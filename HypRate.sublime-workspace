@@ -523,7 +523,7 @@
 			"file": "src/fr/hyperfiction/HypRate.hx",
 			"settings":
 			{
-				"buffer_size": 1598,
+				"buffer_size": 1339,
 				"line_ending": "Windows"
 			}
 		},
@@ -563,23 +563,15 @@
 			"file": "project/iPhone/HypRate.mm",
 			"settings":
 			{
-				"buffer_size": 2368,
+				"buffer_size": 2628,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybe.java",
+			"file": "project/include/HypRate.h",
 			"settings":
 			{
-				"buffer_size": 10779,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybeFragment.java",
-			"settings":
-			{
-				"buffer_size": 2614,
+				"buffer_size": 1637,
 				"line_ending": "Windows"
 			}
 		},
@@ -596,14 +588,6 @@
 			"settings":
 			{
 				"buffer_size": 3114,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "project/include/HypRate.h",
-			"settings":
-			{
-				"buffer_size": 1622,
 				"line_ending": "Windows"
 			}
 		}
@@ -760,7 +744,10 @@
 	},
 	"file_history":
 	[
+		"/C/Developement/workspaceHaxe/HypRate/project/iphone.sh",
 		"/C/Developement/workspaceHaxe/HypRate/project/Build.xml",
+		"/C/Developement/workspaceHaxe/HypRate/project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybeFragment.java",
+		"/C/Developement/workspaceHaxe/HypRate/project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybe.java",
 		"/C/Developement/workspaceHaxe/HypRate/project/include/HypFacebook.h",
 		"/C/Developement/workspaceHaxe/HypRate/project/android/com/kot/ratememaybe/RateMeMaybe.java",
 		"/C/Developement/workspaceHaxe/HypRate/include.nmml",
@@ -884,10 +871,7 @@
 		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/ia/GA.hx",
 		"/C/Users/Johann/AppData/Local/Temp/Main-1.hx",
 		"/C/Motion-Twin/haxe/lib/nme/3,5,5/templates/default/android/template/src/org/haxe/nme/GameActivity.java",
-		"/C/Developement/workspaceHaxe/Viral3/android_build.xml",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/ia/ConstsIa.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/ia/OldIndividu.hx",
-		"/C/Developement/workspaceHaxe/Viral3/Export/android/obj/include/fr/hyperfiction/viral/ia/Individu.h"
+		"/C/Developement/workspaceHaxe/Viral3/android_build.xml"
 	],
 	"find":
 	{
@@ -895,7 +879,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 91.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"C:\\Developement\\workspaceHaxe\\Viral3\\src",
@@ -937,6 +921,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"@JNI",
+			":s",
 			"HypRate_",
 			"APPIRATER_RATE_LATER",
 			"APPIRATER_CANCEL_BUTTON",
@@ -1062,9 +1048,7 @@
 			"iCase_a4",
 			"iCase_b4",
 			"idCaseA4",
-			"idCaseB4",
-			"show_move",
-			"plato.contenu.find( id )"
+			"idCaseB4"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1146,7 +1130,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1154,15 +1138,15 @@
 					"file": "src/fr/hyperfiction/HypRate.hx",
 					"settings":
 					{
-						"buffer_size": 1598,
+						"buffer_size": 1339,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								188,
-								188
+								157,
+								157
 							]
 						],
 						"settings":
@@ -1173,7 +1157,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 405.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1246,8 +1230,8 @@
 						"selection":
 						[
 							[
-								6972,
-								6972
+								1290,
+								1290
 							]
 						],
 						"settings":
@@ -1257,7 +1241,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2464.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1285,7 +1269,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 810.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1295,15 +1279,15 @@
 					"file": "project/iPhone/HypRate.mm",
 					"settings":
 					{
-						"buffer_size": 2368,
+						"buffer_size": 2628,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1883,
-								1897
+								1343,
+								1343
 							]
 						],
 						"settings":
@@ -1313,7 +1297,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 507.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1321,57 +1305,29 @@
 			]
 		},
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 6,
-					"file": "project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybe.java",
+					"file": "project/include/HypRate.h",
 					"settings":
 					{
-						"buffer_size": 10779,
+						"buffer_size": 1637,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3244,
-								3244
+								1637,
+								1637
 							]
 						],
 						"settings":
 						{
-							"buffer_scroll_name": "ad972f68",
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1482.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybeFragment.java",
-					"settings":
-					{
-						"buffer_size": 2614,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								431,
-								431
-							]
-						],
-						"settings":
-						{
-							"buffer_scroll_name": "ea879859",
-							"syntax": "Packages/Java/Java.tmLanguage",
+							"buffer_scroll_name": "4de2d8ec",
+							"syntax": "Packages/C++/C++.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -1381,7 +1337,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "project/android/fr/hyperfiction/HypRate.java",
 					"settings":
 					{
@@ -1410,7 +1366,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": "project/common/ExternalInterface.cpp",
 					"settings":
 					{
@@ -1421,8 +1377,8 @@
 						"selection":
 						[
 							[
-								3044,
-								3044
+								1877,
+								1877
 							]
 						],
 						"settings":
@@ -1433,25 +1389,25 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 6,
 					"file": "project/include/HypRate.h",
 					"settings":
 					{
-						"buffer_size": 1622,
+						"buffer_size": 1637,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1622,
-								1622
+								1637,
+								1637
 							]
 						],
 						"settings":
@@ -1562,6 +1518,18 @@
 		"selected_items":
 		[
 			[
+				"iphone",
+				"project/iphone.sh"
+			],
+			[
+				"bu",
+				"project/Build.xml"
+			],
+			[
+				"hypr",
+				"project/include/HypRate.h"
+			],
+			[
 				"app",
 				"project/iPhone/include/Appirater.m"
 			],
@@ -1576,10 +1544,6 @@
 			[
 				"ratem",
 				"project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybe.java"
-			],
-			[
-				"bu",
-				"build.hxml"
 			],
 			[
 				"androidm",
@@ -2064,14 +2028,6 @@
 			[
 				"mus",
 				"src/fr/hyperfiction/viral/utils/MusicsUtil.hx"
-			],
-			[
-				"sfxu",
-				"src/fr/hyperfiction/viral/utils/SFXUtil.hx"
-			],
-			[
-				"comn",
-				"src/fr/hyperfiction/viral/commands/ComNextMoveIa.hx"
 			]
 		],
 		"width": 0.0
@@ -2083,7 +2039,7 @@
 		[
 			[
 				"",
-				"/C/Developement/workspaceHaxe/HypFacebook/HypFacebook.sublime-project"
+				"/C/Developement/workspaceHaxe/HypSystem/HypSystem.sublime-project"
 			],
 			[
 				"C",
