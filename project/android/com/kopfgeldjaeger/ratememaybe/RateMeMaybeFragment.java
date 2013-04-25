@@ -1,5 +1,6 @@
 package com.kopfgeldjaeger.ratememaybe;
 
+import android.os.Build;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -53,7 +54,11 @@ public class RateMeMaybeFragment extends DialogFragment implements
 	@Override
 	public Dialog onCreateDialog(Bundle savedInstanceState) {
 
-		AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+		AlertDialog.Builder builder;
+		if (Build.VERSION.SDK_INT > 10)
+			builder = new AlertDialog.Builder(getActivity() , 2);
+		else
+			builder = new AlertDialog.Builder(getActivity());
 
 		if (customIcon != 0) {
 			builder.setIcon(customIcon);

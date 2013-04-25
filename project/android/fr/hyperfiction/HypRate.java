@@ -65,6 +65,7 @@ public class HypRate{
 		* @return	void
 		*/
 		static public void setDialog_title( String s ){
+			trace("setDialog_title ::: "+s);
 			rmm.setDialogTitle( s );
 		}
 
@@ -75,6 +76,7 @@ public class HypRate{
 		* @return	void
 		*/
 		static public void setDialog_message( String s ){
+			trace("setDialog_message ::: "+s);
 			rmm.setDialogMessage( s );
 		}
 
@@ -85,6 +87,7 @@ public class HypRate{
 		* @return	void
 		*/
 		static public void setPositive_text( String s ){
+			trace("setPositive_text ::: "+s);
 			rmm.setPositiveBtn( s );
 		}
 
@@ -95,6 +98,7 @@ public class HypRate{
 		* @return	void
 		*/
 		static public void setNeutral_text( String s ){
+			trace("setNeutral_text ::: "+s);
 			rmm.setNeutralBtn( s );
 		}
 
@@ -105,6 +109,7 @@ public class HypRate{
 		* @return	void
 		*/
 		static public void setNegative_text( String s ){
+			trace("setNegative_text ::: "+s);
 			rmm.setNegativeBtn( s );
 		}
 

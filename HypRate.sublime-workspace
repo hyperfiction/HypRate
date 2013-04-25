@@ -523,55 +523,7 @@
 			"file": "src/fr/hyperfiction/HypRate.hx",
 			"settings":
 			{
-				"buffer_size": 1339,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "include.nmml",
-			"settings":
-			{
-				"buffer_size": 535,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 886,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "project/iPhone/include/Appirater.h",
-			"settings":
-			{
-				"buffer_size": 8020,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "project/iPhone/include/Appirater.m",
-			"settings":
-			{
-				"buffer_size": 19264,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "project/iPhone/HypRate.mm",
-			"settings":
-			{
-				"buffer_size": 2628,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "project/include/HypRate.h",
-			"settings":
-			{
-				"buffer_size": 1637,
+				"buffer_size": 1464,
 				"line_ending": "Windows"
 			}
 		},
@@ -579,15 +531,15 @@
 			"file": "project/android/fr/hyperfiction/HypRate.java",
 			"settings":
 			{
-				"buffer_size": 1862,
+				"buffer_size": 2113,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "project/common/ExternalInterface.cpp",
+			"file": "project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybeFragment.java",
 			"settings":
 			{
-				"buffer_size": 3114,
+				"buffer_size": 2749,
 				"line_ending": "Windows"
 			}
 		}
@@ -598,6 +550,14 @@
 		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"",
+				"ADB: Clear View"
+			],
+			[
+				"a",
+				"ADB: Launch"
+			],
 			[
 				"ppa",
 				"Package Control: List Packages"
@@ -631,15 +591,7 @@
 				"View: Toggle Side Bar"
 			],
 			[
-				"a",
-				"ADB: Launch"
-			],
-			[
 				"ad",
-				"ADB: Launch"
-			],
-			[
-				"",
 				"ADB: Launch"
 			],
 			[
@@ -744,21 +696,72 @@
 	},
 	"file_history":
 	[
+		"/C/Developement/workspaceHaxe/HypRate/include.nmml",
+		"/C/Developement/workspaceHaxe/HypRate/src/fr/hyperfiction/HypRate.hx",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_loadBalancing/src/NetworkLogic.cpp",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_loadBalancing/inc/NetworkLogic.h",
+		"/C/Developement/workspaceHaxe/HypPhoton/project/android/de/exitgames/api/loadbalancing/LoadBalancingClient.java",
+		"/C/Users/Johann/Downloads/Photon-Android_v3-0-1-2_SDK/demos/demo-realtime/src/de/exitgames/demo/realtime/RealtimeDemo.java",
+		"/C/Users/Johann/Downloads/Photon-AndroidNDK_v3-2-1-1_Cloud_SDK/Demos/demo_loadBalancing/src/NetworkLogic.cpp",
+		"/C/Users/Johann/Downloads/Photon-AndroidNDK_v3-2-1-1_Cloud_SDK/Demos/demo_loadBalancing/src/StdIO_main.cpp",
+		"/C/Program Files (x86)/Windows Kits/8.0/Include/shared/sdkddkver.h",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_loadBalancing/win32/demo_win32_loadBalancing.sln",
+		"/C/Users/Johann/Downloads/Photon-Android_v3-0-1-2_SDK/demos/demo-realtime/src/de/exitgames/demo/realtime/Settings.java",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_loadBalancing/inc/OutputListener.h",
+		"/C/Developement/workspaceHaxe/HypPhoton/project/android/de/exitgames/api/loadbalancing/LoadBalancingPeer.java",
+		"/C/Users/Johann/Downloads/Photon-Android_v3-0-1-2_SDK/api-loadbalancing/src/de/exitgames/api/loadbalancing/LoadBalancingClient.java",
+		"/C/Users/Johann/Downloads/Photon-Android_v3-0-1-2_SDK/api-loadbalancing/src/de/exitgames/api/loadbalancing/LoadBalancingPeer.java",
+		"/C/Users/Johann/Downloads/Photon-Android_v3-0-1-2_SDK/demos/demo-loadbalancing/src/de/exitgames/demo/loadbalancing/DemoClient.java",
+		"/C/Developement/workspaceHaxe/Viral3/build.nmml",
+		"/C/Users/Johann/Downloads/Photon-Android_v3-0-1-2_SDK/demos/demo-loadbalancing/src/de/exitgames/demo/loadbalancing/ApplicationManager.java",
+		"/C/Users/Johann/Downloads/Photon-Android_v3-0-1-2_SDK/demos/demo-loadbalancing/src/de/exitgames/demo/loadbalancing/MainMenu.java",
+		"/C/Users/Johann/Downloads/Photon-AndroidNDK_v3-2-1-1_Cloud_SDK/Demos/demo_loadBalancing/android/src/demo/android/loadBalancing/DemoActivity.java",
+		"/C/Users/Johann/Downloads/Photon-AndroidNDK_v3-2-1-1_Cloud_SDK/Demos/demo_loadBalancing/inc/NetworkLogic.h",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_loadBalancing/src/StdIO_main.cpp",
+		"/C/Users/Johann/Downloads/Photon-Android_v3-0-1-2_SDK/demos/demo-realtime/src/de/exitgames/demo/realtime/DemoService.java",
+		"/C/Developement/workspaceHaxe/HypPhoton/project/android/de/exitgames/api/loadbalancing/Room.java",
+		"/C/Developement/workspaceHaxe/HypPhoton/project/android/de/exitgames/api/loadbalancing/Player.java",
+		"/C/Developement/workspaceHaxe/HypPhoton/project/android/de/exitgames/api/loadbalancing/JoinType.java",
+		"/C/Users/Johann/Downloads/Photon-Android_v3-0-1-2_SDK/demos/demo-loadbalancing/AndroidManifest.xml",
+		"/C/Users/Johann/Downloads/Photon-Android_v3-0-1-2_SDK/demos/demo-realtime/AndroidManifest.xml",
+		"/C/Developement/workspaceHaxe/HypRate/project/android/fr/hyperfiction/HypRate.java",
+		"/C/Users/Johann/Downloads/Photon-Android_v3-0-1-2_SDK/demos/demo-loadbalancing/res/values/strings.xml",
+		"/C/Users/Johann/Downloads/Photon-Android_v3-0-1-2_SDK/demos/demo-loadbalancing/res/layout/main.xml",
+		"/C/Users/Johann/Downloads/Photon-Android_v3-0-1-2_SDK/demos/build-demos.xml",
+		"/C/Developement/workspaceHaxe/HypRate/project/include/HypRate.h",
+		"/C/Developement/workspaceHaxe/HypRate/project/iPhone/include/Appirater.m",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_helloWorld/src/Photon_lib.cpp",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_helloWorld/inc/Photon_lib.h",
+		"/C/Developement/workspaceHaxe/HypFacebook/project/common/ExternalInterface.cpp",
+		"/C/Developement/workspaceHaxe/HypRate/project/common/ExternalInterface.cpp",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_realtime/src/CPhotonLib.cpp",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_realtime/inc/CPhotonLib.h",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_advanced/inc/Photon_lib.h",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_advanced/src/Photon_lib.cpp",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_advanced/inc/UIListener.h",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_advanced/src/StdIO_UIListener.cpp",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_advanced/src/StdIO_main.cpp",
+		"/C/Developement/workspaceHaxe/HypRate/README.md",
+		"/C/Developement/workspaceHaxe/HypRate/project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybe.java",
+		"/C/Developement/workspaceHaxe/HypRate/project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybeFragment.java",
+		"/C/Developement/workspaceHaxe/HypFacebook/project/include/HypFacebook.h",
+		"/C/Developement/workspaceHaxe/HypFacebook/project/iPhone/HypFacebook.mm",
+		"/C/Developement/workspaceHaxe/HypRate/project/iPhone/HypRate.mm",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_helloWorld/inc/HelloWorldApplication.h",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_helloWorld/inc/UIListener.h",
+		"/C/Users/Johann/Downloads/Photon-Win32_v3-2-1-1_SDK/Photon-Win32_v3-2-1-1_SDK/Demos/demo_helloWorld/inc/StdIO_UIListener.h",
+		"/C/Developement/workspaceHaxe/HypFacebook/include.nmml",
+		"/C/Developement/workspaceHaxe/HypRate/project/iPhone/include/Appirater.h",
 		"/C/Developement/workspaceHaxe/HypRate/project/iphone.sh",
 		"/C/Developement/workspaceHaxe/HypRate/project/Build.xml",
-		"/C/Developement/workspaceHaxe/HypRate/project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybeFragment.java",
-		"/C/Developement/workspaceHaxe/HypRate/project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybe.java",
 		"/C/Developement/workspaceHaxe/HypRate/project/include/HypFacebook.h",
 		"/C/Developement/workspaceHaxe/HypRate/project/android/com/kot/ratememaybe/RateMeMaybe.java",
-		"/C/Developement/workspaceHaxe/HypRate/include.nmml",
-		"/C/Developement/workspaceHaxe/HypRate/README.md",
 		"/C/Developement/workspaceHaxe/Viral3/build.hxml",
 		"/C/Developement/workspaceHaxe/HypGA/README.md",
 		"/C/Developement/workspaceHaxe/Viral3/assets/common/ui/misc/fr.txt",
 		"/C/Developement/workspaceHaxe/HypGA/NOTICE",
 		"/C/Developement/workspaceHaxe/Viral3/templates/android/MainActivity.java",
 		"/C/Developement/workspaceHaxe/Viral3/templates/android/AndroidManifest.xml",
-		"/C/Developement/workspaceHaxe/Viral3/build.nmml",
 		"/C/Developement/workspaceHaxe/Viral3/templates/android/AndroidManifest_xhdpi.xml",
 		"/C/Developement/workspaceHaxe/Viral3/templates/android/AndroidManifest_mdpi.xml",
 		"/C/Developement/workspaceHaxe/Viral3/templates/android/AndroidManifest_licensing.xml",
@@ -792,7 +795,6 @@
 		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/controllers/CMenu.hx",
 		"/C/Developement/workspaceHaxe/inthebox/src/org/shoebox/utils/NativeMirror.hx",
 		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/controllers/CGame.hx",
-		"/C/Developement/workspaceHaxe/HypFacebook/include.nmml",
 		"/C/Users/Johann/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Developement/workspaceHaxe/HypFacebook/README.md",
 		"/C/Developement/workspaceHaxe/HypFacebook/haxelib.xml",
@@ -821,57 +823,7 @@
 		"/C/Users/Johann/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Johann/AppData/Roaming/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
 		"/C/Users/Johann/AppData/Roaming/Sublime Text 2/Packages/User/Haxe.sublime-settings",
-		"/C/Users/Johann/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/Johann/AppData/Roaming/Sublime Text 2/Packages/Alignment/Default (Windows).sublime-keymap",
-		"/C/Users/Johann/AppData/Roaming/Sublime Text 2/Packages/User/Base File.sublime-settings",
-		"/C/Developement/workspaceHaxe/socket.io-nme-client/Extension/include.nmml",
-		"/C/Developement/workspaceHaxe/HyperExtension_Twitter/include.nmml",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/datas/MemContent.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/datas/DatasPlateau2.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/models/MGamePrevisu.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/datas/DatasPlateau.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/datas/DatasGrid.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/datas/PlateauMem.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/utils/DirectionsUtil.hx",
-		"/C/Developement/workspaceHaxe/HyperExtensions/Export/ios/Tests2/Tests2-Info.plist",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/core/FrontViral.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/utils/SFXUtil.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/items/Link.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/datas/CaseContent.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/datas/MemDeck.hx",
-		"/C/Developement/workspaceHaxe/Viral3/Export/ios/Arkeon.xcodeproj/project.xcworkspace/xcuserdata/johann.xcuserdatad/UserInterfaceState.xcuserstate",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/datas/enums/GamePhases.hx",
-		"/C/Developement/workspaceHaxe/Viral3/Export/windows/cpp/obj/include/MemoryGraph.h",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/datas/PlayerGrid.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/Test.hx",
-		"/C/Developement/workspaceHaxe/Viral3/.git/config",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/ia/CoeffCalculator.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/ia/Ia.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/ia/Zobrist.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/datas/PlayerDeck.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/controllers/COptions.hx",
-		"/C/Motion-Twin/haxe/lib/nme/3,5,5/native/utils/ByteArray.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/datas/enums/PionTypes.hx",
-		"/C/Developement/workspaceHaxe/Viral3/Export/windows/cpp/bin/log.txt",
-		"/C/Motion-Twin/haxe/std/flash/utils/ByteArray.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/datas/PlayerMem.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/datas/DatasMem.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/utils/PionsUtil.hx",
-		"/C/Developement/workspaceHaxe/inthebox/src_test/TestGraph.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/controllers/CRules.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/controllers/CFondAccueil.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/commands/ComReset.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/commands/ComMouseGlow.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/commands/ComEnterFrame.hx",
-		"/C/Motion-Twin/haxe/lib/polygonal-ds/1,37/de/polygonal/ds/Graph.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/ia/GASettings.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/ia/UtilsIa.hx",
-		"/C/Motion-Twin/haxe/lib/polygonal-ds/1,37/de/polygonal/ds/GraphNode.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/ia/HeatMap.hx",
-		"/C/Developement/workspaceHaxe/Viral3/src/fr/hyperfiction/viral/ia/GA.hx",
-		"/C/Users/Johann/AppData/Local/Temp/Main-1.hx",
-		"/C/Motion-Twin/haxe/lib/nme/3,5,5/templates/default/android/template/src/org/haxe/nme/GameActivity.java",
-		"/C/Developement/workspaceHaxe/Viral3/android_build.xml"
+		"/C/Users/Johann/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap"
 	],
 	"find":
 	{
@@ -921,6 +873,42 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"NetworkLogicListener",
+			"mLoadBalancingClient",
+			"new load",
+			"tcp",
+			"manifest",
+			"LoadBalancingPeer",
+			"mLoadBalancingClient",
+			"mLoadBalancingClient =",
+			"connect(",
+			"stateUpdate",
+			"NetworkLogicListener",
+			"StateAccessor",
+			"~",
+			"NetworkLogic",
+			"debugReturn",
+			"room",
+			"join",
+			"createNewRoom",
+			"join",
+			"opJoinRandomRoom",
+			"random",
+			"debug",
+			"debugReturn",
+			"loadBalancingPeer",
+			"getDebugOut",
+			"setState",
+			"ApplicationManager.",
+			"runnabl",
+			"appid",
+			"onStatusChanged",
+			"intent",
+			"localbin",
+			"mbin",
+			"SettingsD",
+			"settingsd",
+			"dialog",
 			"@JNI",
 			":s",
 			"HypRate_",
@@ -1012,43 +1000,7 @@
 			"plato.player",
 			"fb49",
 			"fb",
-			"_aCases",
-			"dernier_coup",
-			"remove_pion",
-			"\\t",
-			"dernier_coup",
-			"iCase_id",
-			"_getRotation",
-			"dernier_coup",
-			"joue_pion",
-			"phase",
-			"Phase",
-			"phase",
-			"plateau_courant",
-			"pre_joue_pion",
-			"player_joue_pion_at_case",
-			"annule_pre_jeu",
-			";\n",
-			"pre_joue_pion",
-			"player_joue_pion_at_case",
-			"annule_pre_jeu",
-			"previsu_pion",
-			"gamemode",
-			"modes",
-			"model.plateau_courant.phase",
-			"DirectionsUtil.get_deg_from_rotation",
-			"rRot_to",
-			"rRot_from",
-			"contenu.id",
-			"contenu.idCase",
-			"backup.idCase",
-			"rot_a4",
-			"rot_b4",
-			"iCaseFrom",
-			"iCase_a4",
-			"iCase_b4",
-			"idCaseA4",
-			"idCaseB4"
+			"_aCases"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1138,15 +1090,15 @@
 					"file": "src/fr/hyperfiction/HypRate.hx",
 					"settings":
 					{
-						"buffer_size": 1339,
+						"buffer_size": 1464,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								157,
-								157
+								558,
+								558
 							]
 						],
 						"settings":
@@ -1157,147 +1109,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "include.nmml",
-					"settings":
-					{
-						"buffer_size": 535,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								415,
-								415
-							]
-						],
-						"settings":
-						{
-							"buffer_scroll_name": "97d281bf",
-							"haxe-build-id": 0,
-							"syntax": "Packages/Haxe/NMML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "README.md",
-					"settings":
-					{
-						"buffer_size": 886,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								707,
-								707
-							]
-						],
-						"settings":
-						{
-							"buffer_scroll_name": "af3673df",
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "project/iPhone/include/Appirater.h",
-					"settings":
-					{
-						"buffer_size": 8020,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1290,
-								1290
-							]
-						],
-						"settings":
-						{
-							"buffer_scroll_name": "51a03911",
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "project/iPhone/include/Appirater.m",
-					"settings":
-					{
-						"buffer_size": 19264,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3942,
-								3956
-							]
-						],
-						"settings":
-						{
-							"buffer_scroll_name": "a42266bb",
-							"syntax": "Packages/Objective-C/Objective-C.tmLanguage",
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "project/iPhone/HypRate.mm",
-					"settings":
-					{
-						"buffer_size": 2628,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1343,
-								1343
-							]
-						],
-						"settings":
-						{
-							"buffer_scroll_name": "0dd6b38d",
-							"syntax": "Packages/Objective-C/Objective-C++.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1305,147 +1117,61 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 6,
-					"file": "project/include/HypRate.h",
-					"settings":
-					{
-						"buffer_size": 1637,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1637,
-								1637
-							]
-						],
-						"settings":
-						{
-							"buffer_scroll_name": "4de2d8ec",
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
+					"buffer": 1,
 					"file": "project/android/fr/hyperfiction/HypRate.java",
 					"settings":
 					{
-						"buffer_size": 1862,
+						"buffer_size": 2113,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1465,
-								1465
+								1253,
+								1253
 							]
 						],
 						"settings":
 						{
 							"buffer_scroll_name": "59b25d68",
 							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "project/common/ExternalInterface.cpp",
-					"settings":
-					{
-						"buffer_size": 3114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1877,
-								1877
-							]
-						],
-						"settings":
-						{
-							"buffer_scroll_name": "1fbf5511",
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "project/include/HypRate.h",
-					"settings":
-					{
-						"buffer_size": 1637,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1637,
-								1637
-							]
-						],
-						"settings":
-						{
-							"buffer_scroll_name": "4de2d8ec",
-							"syntax": "Packages/C++/C++.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "project/iPhone/include/Appirater.m",
+					"buffer": 2,
+					"file": "project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybeFragment.java",
 					"settings":
 					{
-						"buffer_size": 19264,
+						"buffer_size": 2749,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3942,
-								3956
+								1162,
+								1162
 							]
 						],
 						"settings":
 						{
-							"buffer_scroll_name": "a42266bb",
-							"syntax": "Packages/Objective-C/Objective-C.tmLanguage",
-							"word_wrap": true
+							"buffer_scroll_name": "ea879859",
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1652.0,
+						"translation.y": 450.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1481,7 +1207,7 @@
 		"cols":
 		[
 			0.0,
-			0.465584935897,
+			0.473887631976,
 			1.0
 		],
 		"rows":
@@ -1518,6 +1244,54 @@
 		"selected_items":
 		[
 			[
+				"inc",
+				"include.nmml"
+			],
+			[
+				"ratem",
+				"project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybeFragment.java"
+			],
+			[
+				"hyp",
+				"project/android/fr/hyperfiction/HypRate.java"
+			],
+			[
+				"hypt",
+				"src/fr/hyperfiction/HypRate.hx"
+			],
+			[
+				"load",
+				"/C/Developement/workspaceHaxe/HypPhoton/project/android/de/exitgames/api/loadbalancing/LoadBalancingPeer.java"
+			],
+			[
+				"demo",
+				"/C/Users/Johann/Downloads/Photon-Android_v3-0-1-2_SDK/demos/demo-loadbalancing/src/de/exitgames/demo/loadbalancing/DemoClient.java"
+			],
+			[
+				"htyp",
+				"src/fr/hyperfiction/HypRate.hx"
+			],
+			[
+				"hypr",
+				"project/android/fr/hyperfiction/HypRate.java"
+			],
+			[
+				"ex",
+				"project/common/ExternalInterface.cpp"
+			],
+			[
+				"exn",
+				"project/common/ExternalInterface.cpp"
+			],
+			[
+				"fragm",
+				"project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybeFragment.java"
+			],
+			[
+				"rate",
+				"project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybe.java"
+			],
+			[
 				"iphone",
 				"project/iphone.sh"
 			],
@@ -1526,24 +1300,12 @@
 				"project/Build.xml"
 			],
 			[
-				"hypr",
-				"project/include/HypRate.h"
-			],
-			[
 				"app",
 				"project/iPhone/include/Appirater.m"
 			],
 			[
-				"ex",
-				"project/common/ExternalInterface.cpp"
-			],
-			[
 				"re",
 				"README.md"
-			],
-			[
-				"ratem",
-				"project/android/com/kopfgeldjaeger/ratememaybe/RateMeMaybe.java"
 			],
 			[
 				"androidm",
@@ -1992,42 +1754,6 @@
 			[
 				"gase",
 				"src/fr/hyperfiction/viral/ia/GASettings.hx"
-			],
-			[
-				"pionro",
-				"src/fr/hyperfiction/viral/datas/enums/PionRotations.hx"
-			],
-			[
-				"indivi",
-				"src/fr/hyperfiction/viral/ia/OldIndividu.hx"
-			],
-			[
-				"indi",
-				"Export/android/obj/include/fr/hyperfiction/viral/ia/Individu.h"
-			],
-			[
-				"heat",
-				"src/fr/hyperfiction/viral/ia/HeatMap.hx"
-			],
-			[
-				"comne",
-				"src/fr/hyperfiction/viral/commands/ComNextMoveIa.hx"
-			],
-			[
-				"ia.h",
-				"src/fr/hyperfiction/viral/ia/Ia.hx"
-			],
-			[
-				"comre",
-				"src/fr/hyperfiction/viral/commands/ComReset.hx"
-			],
-			[
-				"mu",
-				"src/fr/hyperfiction/viral/utils/MusicsUtil.hx"
-			],
-			[
-				"mus",
-				"src/fr/hyperfiction/viral/utils/MusicsUtil.hx"
 			]
 		],
 		"width": 0.0
@@ -2039,7 +1765,7 @@
 		[
 			[
 				"",
-				"/C/Developement/workspaceHaxe/HypSystem/HypSystem.sublime-project"
+				"/C/Developement/workspaceHaxe/inthebox/inthebox.sublime-project"
 			],
 			[
 				"C",

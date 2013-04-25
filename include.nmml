@@ -5,11 +5,8 @@
 		<classpath name="src" />
 
 	<!-- Mobile -->
-		<echo value="" if="mobile" />
-		<echo value="|----------------------------------------------------------------------------|" if="mobile" />
-		<echo value="|                              /!\ [HypRate] /!\                             |" if="mobile" />
 
 	<!-- Android -->
 		<java path="project/android" />
-		<echo value="|----------------------------------------------------------------------------|" if="mobile" />
+		<template path="/templates/android/libs/android-support-v4.jar" rename="libs/android-support-v4.jar" if="android"/>
 </project>
