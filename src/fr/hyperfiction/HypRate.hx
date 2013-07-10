@@ -4,7 +4,7 @@ package fr.hyperfiction;
 * ...
 * @author shoe[box]
 */
-@:build( org.shoebox.utils.NativeMirror.build( ) )
+@:build( ShortCuts.mirrors( ) )
 class HypRate{
 
 	// -------o constructor

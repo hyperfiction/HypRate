@@ -8,5 +8,5 @@
 
 	<!-- Android -->
 		<java path="project/android" />
-		<template path="/templates/android/libs/android-support-v4.jar" rename="libs/android-support-v4.jar" if="android"/>
+		<templatePath name="templates" />
 </project>
