@@ -30,6 +30,9 @@ class HypRate{
 		#if android
 		@JNI
 		#end
+        #if ios
+        @CPP
+        #end
 		static public function start(
 									iMin_launches			: Int,
 									iMin_days				: Int,
@@ -47,6 +50,9 @@ class HypRate{
 		#if android
 		@JNI
 		#end
+        #if ios
+        @CPP
+        #end
 		static public function setDialog_title( s : String ) : Void {
 
 		}
@@ -60,6 +66,9 @@ class HypRate{
 		#if android
 		@JNI
 		#end
+        #if ios
+        @CPP
+        #end
 		static public function setDialog_message( s : String ) : Void {
 
 		}
@@ -73,6 +82,9 @@ class HypRate{
 		#if android
 		@JNI
 		#end
+        #if ios
+        @CPP
+        #end
 		static public function setPositive_text( s : String ) : Void {
 
 		}
@@ -86,6 +98,9 @@ class HypRate{
 		#if android
 		@JNI
 		#end
+        #if ios
+        @CPP
+        #end
 		static public function setNeutral_text( s : String ) : Void {
 
 		}
@@ -99,6 +114,9 @@ class HypRate{
 		#if android
 		@JNI
 		#end
+        #if ios
+        @CPP
+        #end
 		static public function setNegative_text( s : String ) : Void {
 
 		}
@@ -113,6 +131,9 @@ class HypRate{
 		#if android
 		@JNI
 		#end
+        #if ios
+        @CPP
+        #end
 		static public function show( ) : Void {
 
 		}
