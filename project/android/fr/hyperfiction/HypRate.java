@@ -126,6 +126,6 @@ public class HypRate{
 		* @return	void
 		*/
 		public static void trace( String s ){
-			Log.w( TAG, "HypFacebookFrag ::: "+s );
+			Log.w( TAG, "HypRateFrag ::: "+s );
 		}
 }
