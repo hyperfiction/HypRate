@@ -4,7 +4,11 @@
 	<!-- misc -->
 		<classpath name="src" />
 
-	<!-- Mobile -->
+	<!-- iOS -->
+        <ndll name="HypRate" if="ios" />
+        <dependency name="StoreKit.framework" if="ios" />
+        <dependency name="SystemConfiguration.framework" if="ios" />
+
 
 	<!-- Android -->
 		<java path="project/android" />
