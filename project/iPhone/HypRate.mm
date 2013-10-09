@@ -11,6 +11,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
  */
 #import <UIKit/UIKit.h>
 #include <HypRate.h>
+#include "include/Appirater.h"
 namespace Hyperfiction{
 
 	/**
@@ -85,7 +86,7 @@ namespace Hyperfiction{
 	* @return	void
 	*/
 	void show( ){
-		//showPrompt( )
+        [Appirater showPrompt];
 	}
 
 
