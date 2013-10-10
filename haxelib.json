@@ -8,6 +8,7 @@
   "releasenote": "Initial release",
   "contributors": ["shoe[box]"],
   "dependencies": {
-   "openfl": ""
+   "openfl": "",
+   "inthebox-macros": ""
   }
 }
