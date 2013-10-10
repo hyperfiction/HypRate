@@ -35,6 +35,11 @@ extern "C"{
 // iPhone ---------------------------------------------------------------------------------------------------------
 
 #ifdef IPHONE
+    value HypRate_setAppId( value s ) {
+        Hyperfiction::setAppId( val_string( s ) );
+		return alloc_null( );
+	}
+	DEFINE_PRIM( HypRate_setAppId , 1 );
 
 	value HypRate_setDialog_title( value s ) {
         Hyperfiction::setDialog_title( val_string( s ) );

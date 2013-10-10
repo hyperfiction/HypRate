@@ -40,6 +40,22 @@ class HypRate{
 									iMin_days_until_next	: Int
 								) : Void {
 		}
+        
+        /**
+		*
+		*
+		* @public
+		* @return	void
+		*/
+		#if android
+		@JNI
+		#end
+        #if ios
+        @CPP
+        #end
+        static public function setAppId( appId : String ){
+
+        }
 
 		/**
 		*
