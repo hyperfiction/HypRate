@@ -53,7 +53,7 @@ class HypRate{
         #if ios
         @CPP
         #end
-        static public function setAppId( appId : String ){
+        static public function setAppId( appId : String ) : Void {
 
         }
 
