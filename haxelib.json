@@ -1,0 +1,13 @@
+{
+  "name": "HypRate",
+  "url" : "https://github.com/hyperfiction/HypRate",
+  "license": "BSD",
+  "tags": ["hyperfiction","shoebox","openfl"],
+  "description": "",
+  "version": "1.0.0",
+  "releasenote": "Initial release",
+  "contributors": ["shoe[box]"],
+  "dependencies": {
+   "openfl": ""
+  }
+}
