@@ -31,7 +31,7 @@ class HypRate{
 		@JNI
 		#end
         #if ios
-        @CPP
+        @CPP("HypRate", "HypRate_start")
         #end
 		static public function start(
 									iMin_launches			: Int,
@@ -51,7 +51,7 @@ class HypRate{
 		@JNI
 		#end
         #if ios
-        @CPP
+        @CPP("HypRate", "HypRate_setAppId")
         #end
         static public function setAppId( appId : String ) : Void {
 
@@ -67,7 +67,7 @@ class HypRate{
 		@JNI
 		#end
         #if ios
-        @CPP
+        @CPP("HypRate", "HypRate_setDialog_title")
         #end
 		static public function setDialog_title( s : String ) : Void {
 
@@ -83,7 +83,7 @@ class HypRate{
 		@JNI
 		#end
         #if ios
-        @CPP
+        @CPP("HypRate", "HypRate_setDialog_message")
         #end
 		static public function setDialog_message( s : String ) : Void {
 
@@ -99,7 +99,7 @@ class HypRate{
 		@JNI
 		#end
         #if ios
-        @CPP
+        @CPP("HypRate", "HypRate_setPositive_text")
         #end
 		static public function setPositive_text( s : String ) : Void {
 
@@ -115,7 +115,7 @@ class HypRate{
 		@JNI
 		#end
         #if ios
-        @CPP
+        @CPP("HypRate", "HypRate_setNeutral_text")
         #end
 		static public function setNeutral_text( s : String ) : Void {
 
@@ -131,7 +131,7 @@ class HypRate{
 		@JNI
 		#end
         #if ios
-        @CPP
+        @CPP("HypRate", "HypRate_setNegative_text")
         #end
 		static public function setNegative_text( s : String ) : Void {
 
@@ -148,7 +148,7 @@ class HypRate{
 		@JNI
 		#end
         #if ios
-        @CPP
+        @CPP("HypRate", "HypRate_show")
         #end
 		static public function show( ) : Void {
 
