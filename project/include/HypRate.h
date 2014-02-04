@@ -13,6 +13,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 #define Device
 
 namespace Hyperfiction{
+	void setAppId( const char *s );
 	void setDialog_title( const char *s );
 	void setDialog_msg( const char *s );
 	void setPositive_text( const char *s );

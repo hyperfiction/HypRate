@@ -58,6 +58,16 @@ public class HypRate{
 			rmm.forceShow( );
 		}
 
+        /**
+		*
+		*
+		* @public
+		* @return	void
+		*/
+		static public void setAppId( String appId ){
+			trace("setAppId does nothing on Android");
+		}
+
 		/**
 		*
 		*

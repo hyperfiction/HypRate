@@ -35,46 +35,51 @@ extern "C"{
 // iPhone ---------------------------------------------------------------------------------------------------------
 
 #ifdef IPHONE
+    value HypRate_setAppId( value s ) {
+        Hyperfiction::setAppId( val_string( s ) );
+		return alloc_null( );
+	}
+	DEFINE_PRIM( HypRate_setAppId , 1 );
 
 	value HypRate_setDialog_title( value s ) {
-		setDialog_title( val_string( s ) );
+        Hyperfiction::setDialog_title( val_string( s ) );
 		return alloc_null( );
 	}
 	DEFINE_PRIM( HypRate_setDialog_title , 1 );
 
 	value HypRate_setDialog_msg( value s ) {
-		setDialog_msg( val_string( s ) );
+        Hyperfiction::setDialog_msg( val_string( s ) );
 		return alloc_null( );
 	}
 	DEFINE_PRIM( HypRate_setDialog_msg , 1 );
 
 	value HypRate_setPositive_text( value s ) {
-		setPositive_text( val_string( s ) );
+        Hyperfiction::setPositive_text( val_string( s ) );
 		return alloc_null( );
 	}
 	DEFINE_PRIM( HypRate_setPositive_text , 1 );
 
 	value HypRate_setNeutral_text( value s ) {
-		setNeutral_text( val_string( s ) );
+        Hyperfiction::setNeutral_text( val_string( s ) );
 		return alloc_null( );
 	}
 	DEFINE_PRIM( HypRate_setNeutral_text , 1 );
 
 	value HypRate_setNegative_text( value s ) {
-		setCancel_text( val_string( s ) );
+        Hyperfiction::setCancel_text( val_string( s ) );
 		return alloc_null( );
 	}
 	DEFINE_PRIM( HypRate_setNegative_text , 1 );
 
 	value HypRate_start( value minL , value minD , value untilL , value untilD ){
-		start( val_int( minL ) , val_int( minD ) , val_int( untilL ) , val_int( untilD ));
+        Hyperfiction::start( val_int( minL ) , val_int( minD ) , val_int( untilL ) , val_int( untilD ));
 		return alloc_null( );
 	}
 	DEFINE_PRIM( HypRate_start , 4 );
 
 	value HypRate_show( ){
-		show( );
-		return alloc_nul( );
+        Hyperfiction::show( );
+		return alloc_null( );
 	}
 	DEFINE_PRIM( HypRate_show , 0 );
 

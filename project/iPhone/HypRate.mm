@@ -11,7 +11,18 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
  */
 #import <UIKit/UIKit.h>
 #include <HypRate.h>
+#include "include/Appirater.h"
 namespace Hyperfiction{
+
+    /**
+	*
+	*
+	* @public
+	* @return	void
+	*/
+	void setAppId( const char *s ){
+		[Appirater setAppId:[[[NSString alloc] initWithUTF8String:s] autorelease]];
+	}
 
 	/**
 	*
@@ -62,7 +73,7 @@ namespace Hyperfiction{
 	void setCancel_text( const char *s ){
 		[Appirater setCancel_text:[[[NSString alloc] initWithUTF8String:s] autorelease]];
 	}
-
+    
 	/**
 	*
 	*
@@ -70,11 +81,11 @@ namespace Hyperfiction{
 	* @return	void
 	*/
 	void start( int minL , int minD , int untilL , int unitD ){
-		[Appirater setAppId:@"552035781"];
-		[Appirater setDaysUntilPrompt:1];
-		[Appirater setUsesUntilPrompt:10];
+		[Appirater setUsesUntilPrompt:minL];
+		[Appirater setDaysUntilPrompt:minD];
+        // Disable significant event criterion
 		[Appirater setSignificantEventsUntilPrompt:-1];
-		[Appirater setTimeBeforeReminding:2];
+		[Appirater setTimeBeforeReminding:unitD];
 		[Appirater setDebug:YES];
 	}
 
@@ -85,7 +96,7 @@ namespace Hyperfiction{
 	* @return	void
 	*/
 	void show( ){
-		//showPrompt( )
+        [Appirater showPrompt];
 	}
 
 
